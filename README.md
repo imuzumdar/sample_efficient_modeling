@@ -1,14 +1,14 @@
-# Ntropy: Task 2 Assignment  
+# Sample Efficient Models 
   
-This repo contains my submission for  Ntropy's take home assignment. I decided to work on task 2.  
+This repo contains an active learner I developed, equipped with a CNN and data augmenter, which achieves 90% accuracy on Fashion-MNIST dataset using roughly 9% of training data labels.  
   
 ## Problem Statement  
   
-In most real-world applications, labelled data is scarce. Suppose you are given the Fashion-MNIST dataset (https://github.com/zalandoresearch/fashion-mnist), but without any labels in the training set. The labels are held in a database, which you may query to reveal the label of any particular image it contains.   
+In the real world, labeled data can be scarce. Suppose you are given the Fashion-MNIST dataset (https://github.com/zalandoresearch/fashion-mnist), but without any labels in the training set. The labels are held in a database, which you may query to reveal the label of any particular image it contains.   
   
 >Your task is to build a classifier to  90% accuracy on the test set, using the smallest number of queries to this database.  
 
-You may use any combination of techniques you find suitable (supervised, self-supervised, unsupervised). However, using other datasets or pre-trained models is not allowed.   
+You may use any combination of techniques you find suitable (supervised, self-supervised, unsupervised) as long as you don't use other datasets or pre-trained models.   
   
 ## My Submission  
   
